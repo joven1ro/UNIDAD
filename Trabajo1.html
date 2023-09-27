@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="geo.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo1</title>
+</head>
+
+<body>
+
+    <div>
+        <h1>
+            *** Jose Gabriel Martinez velasco ***
+        </h1>
+    </div>
+    <div class="contenido">
+
+        <div class="imagen">
+            <img width="100%" src="images/prueba.jpg" alt="">
+        </div>
+
+        <div class="botones">
+            <h2>Apis List</h2>
+            <button onclick="boton1()">Geolocalizacion</button>
+            <button onclick="boton2()">Redes sociales</button>
+            <button onclick="boton3()">E-commerce</button>
+            <button onclick="boton4()">Base de datos</button>
+            <button onclick="boton5()">Protocolos de comunicacion</button>
+            <button onclick="boton6()">Plataforma on line</button>
+            <button onclick="boton7()">Plataformas streaming</button>
+
+        </div>
+    </div>
+
+
+    <input type="text" id="places" placeholder="Ingresa una direccion: ">
+
+    <div id="map">
+        <script async
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB3pKkj-H_bOea9hkxpuyobPiOyuWDCHeY&callback=initMap">
+            </script>
+    </div>
+
+</body>
+
+</html>
+
+<style>
+    #map {
+        height: 100%;
+    }
+
+    html,
+    body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        text-align: center;
+        background-color: white;
+    }
+
+    h1 {
+        width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 40px;
+        background-color: #DEF5FA;
+    }
+
+    button {
+        width: 40%;
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 40px;
+        background-color: #FAE5FC;
+    }
+</style>
